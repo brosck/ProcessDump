@@ -80,7 +80,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
     printf("[+] %s's PID is %d\n", argv[1], pid);
-    printf("[+] Pouring the process %d\n", pid);
+    printf("[+] Dumping the process %d\n", pid);
 
     dmp = DumpProc(pid, argv[2]);
     if (dmp != 0) {
